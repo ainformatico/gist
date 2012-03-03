@@ -42,6 +42,16 @@ These options can be used to change this behavior:
     Open the gist in your browser after creation. Or don't. Defaults
     to --open
 
+  * `-r`, `--read`:
+    Get the gist for the given id and write it to standard output
+
+  * `-a`, `--anonymous`:
+    Ignores your GitHub account and creates an anonymous gist.
+
+  * `-u`, `--update`:
+    Updates the gist with the given id instead of creating a new one. Works
+    only with gists that belong to your GitHub account!
+
 You may additionally ask for help:
 
   * `-h`, `--help`:
