@@ -1,3 +1,16 @@
+This is my fork of [gist](http://defunkt.io/gist/).
+
+I've added three new options:
+
+* `gist -r ID` or `gist --read ID` will get the gist with the given id
+  and print it on standard output.
+* `gist -a` or `gist --anonymous` forces gist to ignore your GitHub
+  account and to create an anonymous gist.
+* `gist -u ID FILE` or `gist --update ID FILE` will update the given
+  gist with the file instead of creating a new one.
+
+Back to the original readme...
+
 Gist: The Script
 ================
 
