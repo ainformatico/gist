@@ -214,7 +214,7 @@ module Gist
 private
   # Give an array of file information and private boolean, returns
   # an appropriate payload for POSTing to gist.github.com
-  def data(files, private_gist, description, anonymous_gist = false, update_to)
+  def data(files, private_gist, description, anonymous_gist = false, update_to = nil)
     data = {}
     files.each do |file|
       i = data.size + 1

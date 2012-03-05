@@ -271,7 +271,7 @@ module Gist
   end
 
 private
-  def data(files, private_gist, description, anonymous_gist = false, update_to)
+  def data(files, private_gist, description, anonymous_gist = false, update_to = nil)
     data = {}
     files.each do |file|
       i = data.size + 1
